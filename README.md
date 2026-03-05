@@ -168,10 +168,60 @@ Le dashboard permet une analyse complète selon deux perspectives :
 
 # 📸 Aperçu du dashboard
 
-*(tu pourras mettre ici les screenshots de tes pages Power BI)*
+### Vue générale
+![Vue générale](images/hm_vue_generale.PNG)
 
+### Analyse des ventes
+![Ventes](images/hm_ventes.PNG)
+
+### Analyse des achats
+![Achats](images/hm_achats.PNG)
+
+### Volume textile
+![Volume textile](images/hm_volume.PNG)
+
+### Analyse CO2 et impact environnemental
+![CO2](images/hm_co2.PNG)
+
+### Comparaison ventes vs collecte
+![Comparaison](images/hm_comparaison.PNG)
+
+## 📥 Télécharger le dashboard Power BI
+
+Le fichier Power BI complet peut être téléchargé ici :
+
+👉 https://drive.google.com/file/d/1YWHpHd53CAhI_bt3RrNrrNJIPcPB1PqN/view?usp=sharing
+
+⚠️ Le fichier n'est pas inclus dans ce repository en raison de sa taille importante.
 ---
+## 📊 Insights et enseignements
 
+L'analyse des données met en évidence plusieurs tendances importantes :
+
+• La majorité du chiffre d'affaires provient des ventes en **magasin physique**, confirmant que le retail reste le principal canal de distribution.
+
+• Les **clients âgés de 25 à 34 ans** représentent l'un des segments les plus actifs en termes de fréquence d'achat.
+
+• Certaines catégories d'articles concentrent une part importante des ventes, ce qui permet d'identifier les **produits à fort potentiel commercial**.
+
+• La simulation de collecte textile montre que la **réutilisation des vêtements génère l'impact carbone évité le plus important**, devant le recyclage matière ou la valorisation énergétique.
+
+• L'analyse par matière révèle que certaines fibres, comme la **laine ou le cuir**, présentent une efficacité carbone plus élevée lorsqu'elles sont réutilisées.
+
+Ces résultats permettent d'identifier des leviers d'action pour améliorer à la fois la performance économique et l'impact environnemental du programme de circularité.
+---
+## 💡 Recommandations
+
+À partir de ces analyses, plusieurs pistes d'amélioration peuvent être envisagées :
+
+• renforcer la communication autour du programme de collecte textile en magasin, où la fréquentation client est la plus forte
+
+• cibler les segments de clients les plus actifs pour encourager le retour des vêtements usagés
+
+• mettre en avant les produits et matières ayant le meilleur potentiel de **réutilisation et d'impact carbone évité**
+
+Ces analyses peuvent aider H&M à optimiser son programme de circularité tout en préservant sa performance commerciale.
+---
 # 🧠 Méthodes utilisées
 
 - Python
@@ -189,8 +239,9 @@ Le dashboard permet une analyse complète selon deux perspectives :
 ```
 hm-circularity-insight
 │
-├── powerbi
-│ └── dashboard_hm.pbix
+├── notebooks
+│ └── data_cleaning_transactions.ipynb
+│ └── data_cleaning_customers.ipynb
 │
 ├── images
 │ └── hm_vue_generale.PNG
@@ -233,4 +284,16 @@ Ce projet montre que la **mode circulaire peut devenir un levier stratégique** 
 - data visualisation avec Power BI
 - analyse stratégique mêlant **finance et impact environnemental**
 
+## 👨‍💻 Contribution personnelle
+
+Ce projet a été réalisé en équipe dans le cadre d'un projet de Data Analysis.
+
+Mes contributions principales ont été :
+
+- participation au **nettoyage et à la préparation des données**
+- traitement du dataset **transactions_train**
+- participation au nettoyage et à la préparation du dataset **customers**
+- création de la **vue générale du dashboard Power BI**
+- développement de la page **analyse des achats et du chiffre d'affaires**
+- participation à la définition et au calcul des **KPIs financiers**
 
